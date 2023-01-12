@@ -13,6 +13,7 @@ module.exports = {
   plugins: ['react'],
   rules: {
     'space-before-function-paren': 'off',
-    'multiline-ternary': 'off'
+    'multiline-ternary': 'off',
+    'no-useless-return': 'off'
   }
 }
