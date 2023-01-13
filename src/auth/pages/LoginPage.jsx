@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logoHeladitto from '../../assets/LOGO HELADITTO.png'
+import logoHeladitto from '../../assets/heladitto.png'
 import { useForm } from '../../hooks/useForm'
 
 const formData = {
@@ -12,6 +12,7 @@ export const LoginPage = () => {
 
   const onSubmit = event => {
     event.preventDefault()
+    console.log({ email, password })
   }
 
   return (
